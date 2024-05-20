@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spin Wheel App</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="player-inputs">
+          <input type="text" id="player1" placeholder="Player 1 Name" />
+          <input type="text" id="player2" placeholder="Player 2 Name" />
+          <input type="text" id="maximumScore" placeholder="Maximum score" />
+        </div>
+        <button id="play-btn" onclick="playBtn()">Play!</button>
+      </div>
+      <p id="max-score-error" class="error-msg" style="display: none">
+        Please enter a integer maximum score greater than 6!
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
