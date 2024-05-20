@@ -1,6 +1,7 @@
 # DIP392-Brave03
 - [Link to the Report](https://docs.google.com/document/d/1T6yts7mA5S-oa5GCyJWDVsF1Bsq82MPPj0vTWIsw54E/edit?usp=sharing)
 - [Link to the project](https://dip-392-brave03.vercel.app/)
+- [Link to the presentation](https://www.canva.com/design/DAGFyJHXzS8/SCokEXHmMB4UuC9BQogG0w/edit?utm_content=DAGFyJHXzS8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Spinning Wheel Game
 This project implements a spinning wheel game using functional programming principles in JavaScript. The game allows players to spin a wheel and win points based on where the wheel stops.
